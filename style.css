@@ -1,0 +1,340 @@
+@font-face {
+    font-family: regular;
+    src: url(fuentes/BaiJamjuree-Regular.ttf);
+}
+@font-face {
+    font-family: medio;
+    src: url(fuentes/BaiJamjuree-Medium.ttf);
+}
+
+h1,h2,h3{
+    font-family: medio;
+}
+
+p{
+font-family: regular;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#banner{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.banner-botones{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0 2em 0;
+}
+
+.button1{
+    border: none;
+    margin: 1%;
+    background: #26bba5;
+    width: 50%;
+    padding: 1em;
+    color: white;
+    border-radius: 2em;
+}
+
+.button2{
+    border: none;
+    color: white;
+    margin: 1%;
+    width: 50%;
+    background: #6174ff;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.sc1{
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+
+
+.sc1 ul{
+grid-column: 2;
+padding: 6em;
+list-style: none;
+display: flex;
+flex-direction: column;
+}
+
+.sc1 li{
+    padding: 1.5em;
+}
+
+
+.sc2{
+    display: flex;
+   text-align: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.sc3 div{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   text-align: center; 
+}
+
+.texto{
+    flex-direction: column;
+}
+
+.div-unu{
+    margin: 2em;
+flex-direction: column;
+}
+
+.div-do{
+    margin: 2em;
+    flex-direction: column;
+    }
+
+    .div-tre{
+        margin: 2em;
+        flex-direction: column;
+        }
+        
+        .sc3 ul{
+            flex-direction: row;
+            list-style: none;
+            margin: 2em;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .sc4{
+            display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+
+        
+        #pie-pagina{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            padding: 2em;
+        }
+        
+        #pie-pagina ul{
+            
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            line-height: 2;
+        }
+        
+        .creditos{
+            
+            width: 30%;
+            display: flex;
+            align-items: center;
+        
+        }
+        
+        .jooa{
+            
+            width: 30%;
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        
+        
+        .logo-2 img{
+            width: 70%;
+        }
+    
+
+        @media only screen and (min-width: 0px) and (max-width:600px) {
+
+          
+body {
+ 
+}
+
+
+#banner{
+    height: 115vh;
+}
+
+#banner figure{
+    width: 100%;
+    margin-top: 7em;
+    margin-bottom: 5em;
+}
+
+#banner figure img{
+    width: 20%;
+}
+
+.banner-text1{
+   
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#banner h1{
+    font-size: 27px;
+}
+
+.banner-text2 p{
+    
+    width: 80%;
+}
+
+.banner-text2{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sc1{
+    grid-template-columns: 1fr;
+   grid-template-rows: 1fr 1fr;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+    }
+
+.sc1 figure img{
+    width: 80%;
+
+}
+
+.sc1 figure{
+    padding: 0 2em 0 2em;
+    width: 100%;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.sc1 ul{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+
+.sc2{
+    grid-template-columns: 1fr;
+   grid-template-rows: 1fr 1fr;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+    }
+
+.sc2 figure{
+    width: 100%;
+}
+
+    .sc2 figure img{
+        width: 95%;
+    
+    }
+
+
+
+    .sc3 ul{  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50vh;
+    }
+
+    .div2{
+        flex-direction: column;
+        display: flex;
+    }
+
+    .sc3-text1{
+        text-align: center;
+        width: 100%;
+        padding: 1em;
+        display: flex;
+    }
+
+    .sc3-text2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .sc4{
+        height: 50vh;
+    }
+
+    .sc4 p{
+width: 100%;
+padding: 2em 0 2em 0;
+    }
+
+#pie-pagina{
+    display: flex;
+    align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+
+.logo-2{
+    display: flex;
+ text-align: center;
+    width: 70%;
+}
+
+.creditos{
+    width: 100%;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+}
+
+.jooa{
+display: flex;
+flex-direction: column;
+}
+
+.face{
+    width: 40%;
+}
+
+
+.twit{
+    width: 40%;
+}
+
+.inst{
+ width: 40%;
+}
+
+
+
+
+ }
